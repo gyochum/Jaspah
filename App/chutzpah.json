@@ -1,0 +1,26 @@
+﻿{
+	"Compile": {
+		"Mode": "External",
+		"Extensions": [".ts"],
+		"ExtensionsWithNoOutput": [".d.ts"]		
+	},
+	"References": [
+		{ "Path": "../Scripts/jquery-1.11.0.js" },
+		{ "Path": "../Scripts/angular.js" },
+		{ "Path": "../Scripts/angular-route.js" },
+		{ "Path": "../Scripts/angular-mocks.js" },
+		{ "Path": "../Scripts/angular-animate.js" },
+		{ "Path": "../Scripts/angular-cookies.js" },
+		{ "Path": "../Scripts/angular-resource.js" },
+		{ "Path": "../Scripts/angular-sanitize.js" },
+		{ "Path": "../Scripts/angular-ui.min.js" },
+		{ "Path": "../Scripts/angular-ui/ui-bootstrap.js" },
+		{ "Path": "../Scripts/typings/_allReferences.js" },
+		{ "Path": "service", "Include": "*.js" },
+		{ "Path": "app.js" }
+	],
+	"Tests": [
+		{ "Path": "module1", "Include": "*Spec*", "Exclude": ".ts" },
+		{ "Path": "service", "Include": "*Spec*", "Exclude": ".ts" }
+	]	
+}
